@@ -59,6 +59,7 @@ a:hover {
 }
 
 .logo {
+    
     font-size:2rem;
 }
 
@@ -429,3 +430,59 @@ footer {
 footer p {
     text-align: center;
 }
+
+/*adding background to profile section*/
+
+/*#profile {
+  background-image: url('./my-assets/pink-background.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  z-index: 1;
+  display: flex;
+}*/
+
+#profile::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-image: url('./my-assets/blueish-background.jpg');
+  background-size: cover;
+  background-position: center;
+  filter: blur(8px);
+  z-index: -1;
+}
+
+#experience::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-image: url('./my-assets/orange-background.jpg');
+  background-size: cover;
+  background-position: center;
+  filter: blur(8px);
+  z-index: -1;
+}
+
+#projects::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-image: url('./my-assets/orange-background.jpg');
+  background-size: cover;
+  background-position: center;
+  filter: blur(8px);
+  z-index: -1;
+}
+
+
+
