@@ -25,3 +25,26 @@ function typeWriter() {
   }
 }
 window.onload = typeWriter;
+
+
+// Select the modal and modal elements
+const modal = document.getElementById("bio-modal");
+const profilePic = document.querySelector(".about-pic");
+const closeBtn = document.querySelector(".close-btn");
+
+// Open modal when image is clicked
+profilePic.addEventListener("click", () => {
+  modal.style.display = "block";
+});
+
+// Close modal when close button is clicked
+closeBtn.addEventListener("click", () => {
+  modal.style.display = "none";
+});
+
+// Close modal when clicking outside the content
+window.addEventListener("click", (e) => {
+  if (e.target === modal) {
+    modal.style.display = "none";
+  }
+});
