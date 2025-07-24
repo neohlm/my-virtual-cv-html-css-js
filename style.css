@@ -506,7 +506,7 @@ footer p {
 .logo {
   color: #fff;  /*glow effect*/
   text-shadow: 0 0 10px #979597, 0 0 20px #f5f5f9;
-}
+} 
 
 /*bounce effcer*/
 @keyframes bounce-in {
