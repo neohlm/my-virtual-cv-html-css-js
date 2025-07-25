@@ -98,7 +98,6 @@ a:hover {
     position: absolute;
     top: 100%;
     right:0;
-    background-color: white;
     width: fit-content;
     max-height: 0;
     overflow: hidden;
@@ -108,7 +107,7 @@ a:hover {
 .menu-links, a {
     display: block;
     text-align: center;
-    font-size:1.5rem;
+    font-size:1.2rem;
     color: black;
     text-decoration: none;
     transition: all 0.3 ease-in-out;
@@ -466,6 +465,20 @@ footer p {
   z-index: -1;
 }
 
+.menu-links::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-image: url('./my-assets/blueish-background.jpg');
+  background-size: cover;
+  background-position: center;
+  filter: blur(8px);
+  z-index: -1;
+}
+
 #experience::before {
   content: "";
   position: absolute;
@@ -505,12 +518,6 @@ footer p {
 }
 
 /*logo*/
-
-/*.logo {
-  background: linear-gradient(to right, #2c282b, #0e0d24); /*gradient text effect*/
-  /*-webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;*/
-/*}*/
 
 .logo {
   color: #080808;  /*glow effect*/
