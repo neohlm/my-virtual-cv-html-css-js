@@ -12,7 +12,7 @@ function toggleMenu(){
 
 document.querySelector(".section_text_p2").textContent = "";
 
-//typewriter effect
+//typewriter effect for the profile section
 let i = 0;
 const txt = 'Final Year Student - Aspiring Software Engineer - Cyber Security Enthusiast';
 const speed = 50;
