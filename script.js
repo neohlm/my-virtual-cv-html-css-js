@@ -48,3 +48,6 @@ window.addEventListener("click", (e) => {
     modal.style.display = "none";
   }
 });
+
+// hidden easter egg
+console.log("You're peeking under the hood! Welcome, fellow code explorer 🛠️");

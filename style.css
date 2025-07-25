@@ -285,6 +285,7 @@ section {
 
 .about-pic {
     border-radius: 15rem;
+    content: attr(data-tooltip);
 }
 
 .arrow {
@@ -312,6 +313,8 @@ section {
     height: 400px;
     width: 400px;
     margin: auto 0;
+    overflow: visible; /*for the tooTip*/
+    position: relative;
 }
 
 .text-container {
@@ -618,6 +621,8 @@ footer p {
 .modal:hover {
     cursor:default;
 }
+
+
 
 
 
