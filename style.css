@@ -391,7 +391,7 @@ article .icon {
     border-color: rgb(163,163,163);
 }
 
-.details-container:hover {
+/*.details-container:hover {
 
 }
 
@@ -502,7 +502,7 @@ footer p {
 
 .logo {
   background: linear-gradient(to right, #2c282b, #0e0d24); /*gradient text effect*/
-  -webkit-background-clip: text;
+  /*-webkit-background-clip: text;*/
   -webkit-text-fill-color: transparent;
 }
 
