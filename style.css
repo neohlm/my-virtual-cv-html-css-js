@@ -391,8 +391,14 @@ article .icon {
     border-color: rgb(163,163,163);
 }
 
-/*.details-container:hover {
-
+.details-container:hover {
+    padding: 1.5rem;
+    flex: 1;
+    background: white;
+    border-radius: 2rem;
+    border: rgb(53,53,53) 0.1rem solid;
+    border-color: rgb(163,163,163);
+    text-align: center;
 }
 
 /*contact section*/
@@ -500,14 +506,14 @@ footer p {
 
 /*logo*/
 
-.logo {
+/*.logo {
   background: linear-gradient(to right, #2c282b, #0e0d24); /*gradient text effect*/
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
+  /*-webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;*/
+/*}*/
 
 .logo {
-  color: #fff;  /*glow effect*/
+  color: #080808;  /*glow effect*/
   text-shadow: 0 0 10px #979597, 0 0 20px #f5f5f9;
 } 
 
