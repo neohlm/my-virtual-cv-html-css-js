@@ -7,7 +7,7 @@ This Virtual CV is a dynamic and interactive personal portfolio built with HTML,
 ## Features
 
 - Responsive layout optimized for desktop and mobile devices
-- Interactive elements like modal popups and dark mode toggle
+- Interactive elements like modal popups
 - Smooth animations including hover effects and typewriter text
 - Sectioned design for easy navigation (About Me, Skills, Projects, Contact)
 - Creative visual styling using custom CSS themes
