@@ -7,6 +7,7 @@
 * {             /* the asterik basically targets the entire page - removed margin and padding on page*/
     margin:0;
     padding:0;
+    
 }
 
 body {
@@ -286,6 +287,7 @@ section {
     border-radius: 15rem;
     content: attr(data-tooltip);
 }
+
 
 .arrow {
     position: absolute;
@@ -597,6 +599,7 @@ footer p {
 
 .about-pic:hover {
   transform: rotateY(10deg) scale(1.05);
+  cursor: pointer;
 }
 
 .profile-pic {
@@ -626,13 +629,13 @@ footer p {
 }
 
 .modal-content {
-  background: #fff;
+  background: rgb(252, 225, 229);
   margin: 10% auto;
   padding: 2rem
 }
 
 .modal:hover {
-    cursor:default;
+    cursor: pointer;
 }
 
 
