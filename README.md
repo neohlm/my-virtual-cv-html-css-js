@@ -22,9 +22,18 @@ This Virtual CV is a dynamic and interactive personal portfolio built with HTML,
 |Google Fonts / Icons | Enhanced typography and visual elements|
 |Git|	Version control during development|
 
-## Credits
-This project was designed and developed by Neo Hlumbene as a showcase of personal projects, technical skills and creative flair in web development.
+## Screenshots
 
-Inspired by modern portfolio layouts, animated user interfaces and the pursuit of cybersecurity-enhanced controlled systems,  special thanks to the online communities, courses and tutorials that fueled this coding journey.
+| Page | Preview |
+|------|---------|
+| Home | ![Home Page](home_page.png) |
+
+## To view project live:
+https://neohlm.github.io/my-virtual-cv-html-css-js/
+
+## Credits
+This project was developed by Neo Hlumbene as a showcase of personal projects, technical skills and creative flair in web development.
+
+Inspired by modern portfolio layouts, animated user interfaces and the pursuit of cybersecurity-enhanced controlled systems.
 
 
