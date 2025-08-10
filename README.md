@@ -2,7 +2,7 @@
 
 ## Overview
 
-This Virtual CV is a dynamic and interactive personal portfolio built with HTML, CSS, and JavaScript. It showcases my skills, projects and professional background in a visually engaging and accessible format. Designed for easy navigation and responsiveness, the CV highlights my strengths in front-end development, creative UI design and foundational computing concepts. Whether you're a potential employer, collaborator or fellow coder, this project offers a quick and simple but yet comprehensive glance into who I am as a person and what I do.
+This Virtual CV is a dynamic and interactive personal portfolio built with HTML, CSS and JavaScript. It showcases my skills, projects and professional background in a visually engaging and accessible format. Designed for easy navigation and responsiveness, the CV highlights my strengths in front-end development, creative UI design and foundational computing concepts. Whether you're a potential employer, collaborator or fellow coder, this project offers a quick and simple but yet comprehensive glance into who I am as a person and what I do.
 
 ## Features
 
