@@ -59,9 +59,12 @@ a:hover {
     text-decoration-color: rgb(226, 123, 140);
 }
 
-.logo {
+.logo img {
     
-    font-size:2rem;
+    /*font-size:2rem;*/
+    height: 280px; /* Match this to your nav font size */
+    object-fit: contain;
+    vertical-align: middle;
 }
 
 .logo:hover {
@@ -521,7 +524,7 @@ footer p {
 
 /*logo*/
 
-.logo {
+.logo img{
   color: #080808;  /*glow effect*/
   text-shadow: 0 0 10px #979597, 0 0 20px #f5f5f9;
 } 
@@ -541,11 +544,11 @@ footer p {
   }
 }
 
-.logo {
+.logo img {
   animation: bounce-in 1s ease forwards;
 }
 
-.logo:hover {
+.logo img:hover {
   color: #ff6ec4;
   letter-spacing: 2px;
   transform: scale(1.05);
