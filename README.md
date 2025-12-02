@@ -27,6 +27,7 @@ This Virtual CV is a dynamic and interactive personal portfolio built with HTML,
 | Page | Preview |
 |------|---------|
 | Home | ![Home Page](home_page.png) |
+| Projects | ![Projects Page](projects_page.png) |
 
 ## To view project live:
 https://neohlm.github.io/my-virtual-cv/
