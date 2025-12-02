@@ -29,7 +29,7 @@ This Virtual CV is a dynamic and interactive personal portfolio built with HTML,
 | Home | ![Home Page](home_page.png) |
 
 ## To view project live:
-https://neohlm.github.io/my-virtual-cv-html-css-js/
+https://neohlm.github.io/my-virtual-cv/
 
 ## Credits
 This project was developed by Neo Hlumbene as a showcase of personal projects, technical skills and creative flair in web development.
