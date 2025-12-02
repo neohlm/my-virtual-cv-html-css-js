@@ -68,7 +68,7 @@ a:hover {
 }
 
 .logo:hover {
-     cursor: default;
+    cursor: default;
 }
 
 /*hamburger menu*/
@@ -323,12 +323,13 @@ section {
 
 .text-container {
     padding: 1.5rem;
-    flex: 0.7;
+    flex: 0.4;
     font-family: Arial, Helvetica, sans-serif;
     border-radius: 2rem;
     border: rgb(53,53,53) 0.1rem solid;
     border-color: rgb(163,163,163);
 }
+
 /*experience section*/
 
 #experience {
@@ -456,6 +457,8 @@ footer p {
     text-align: center;
 }
 
+/*background images for sections*/
+
 #profile::before {
   content: "";
   position: absolute;
@@ -510,6 +513,34 @@ footer p {
   background-position: center;
   filter: blur(8px);
   z-index: -1;
+}
+
+#about::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-image: url('./my-assets/snopi.jpeg');
+  background-size: cover;
+  background-position: center;
+  filter: blur(1px);
+  z-index: -2;
+}
+
+#contact::before {
+  content: "";
+  /*position: absolute;*/
+  top: 0;
+  left: 0;
+  height: 40%;
+  width: 100%;
+  background-image: url('./my-assets/orange-background.jpg');
+  background-size: cover;
+  background-position: center;
+  filter: blur(8px);
+  /*z-index: -1;*/
 }
 /*text container in about section*/
 
